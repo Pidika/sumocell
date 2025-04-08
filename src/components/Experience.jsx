@@ -1,7 +1,7 @@
-
+import React from "react";
 import { ThumbsDown, ThumbsUp } from "lucide-react";
 
-export default function Experience() {
+const Experience = ()=> {
   return (
     <section className='w-full py-20 px-8 md:px-24 bg-white'>
       <div className='max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center'>
@@ -153,3 +153,4 @@ export default function Experience() {
     </section>
   )
 };
+export default Experience

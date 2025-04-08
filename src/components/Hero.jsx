@@ -1,7 +1,6 @@
-import { Link } from 'react-router-dom'
+import React from 'react'
 import Dividers from './Dividers'
-export default function Hero() {
-  const hereBg = '/img/hero-bg.png'
+const Hero = () => {
   return (
     <div>
       <div className='bg-[url("/img/product-bg.png")] bg-cover bg-center w-full min-h-[calc(100vh-100px)] grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 py-12 px-8 md:px-24 items-center max-w-7xl mx-auto'>
@@ -26,3 +25,5 @@ export default function Hero() {
     </div>
   )
 }
+
+export default Hero
